@@ -13,7 +13,6 @@ const App = () => {
 
   return (
     <div>
-      <h1>hey</h1>
       <Calendar value={date} onChange={handleChange} />
       <h1>Selected date: {date?.toDateString()}</h1>
     </div>
